@@ -11,12 +11,13 @@ h3 {
   justify-content: center;
   text-decoration: none;
   height: 105px;
-  color: #0271e1;
+  color: var(--blue);
   width: 48%;
   border: 1px solid;
   border-color: #e3e5e8;
   border-radius: 16px;
   min-width: 133px;
+  max-width: 170px;
 }
 
 .tile-icon-wrapper {
@@ -27,7 +28,7 @@ h3 {
 
 .tile-icon {
   width: 40px;
-  height: auto;
+  height: 30px;
   margin: 0 auto;
 }
 

@@ -29,8 +29,13 @@ h2 {
   line-height: 150%;
 }
 
+.tiles-container {
+  width: 100%;
+}
+
 .tiles {
   height: 137px;
+  width: 100%;
 }
 
 @media screen and (min-width: 961px) { 

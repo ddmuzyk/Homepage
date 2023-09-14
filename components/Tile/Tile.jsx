@@ -1,14 +1,14 @@
 import React from "react";
 import "./Tile.css";
 
-const Tile = () => {
+const Tile = ({title, image}) => {
   return (
     <a className="tile" href="https://www.finder.com.au/">
     <div className="tile-icon-wrapper">
-      <img className="tile-icon" src="../../public/banknote.svg"></img>
+      <img className="tile-icon" src={`../../public/${image}.svg`}></img>
     </div>
       <div className="tile-title">
-        <h3>Credit Cards</h3>
+        <h3>{title}</h3>
       </div>
     </a>
   );
