@@ -1,0 +1,50 @@
+h3 {
+  margin: 0;
+  text-align: center;
+  font-weight: 1000;
+  font-size: 14px;
+}
+
+.tile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  text-decoration: none;
+  height: 105px;
+  color: #0271e1;
+  width: 48%;
+  border: 1px solid;
+  border-color: #e3e5e8;
+  border-radius: 16px;
+  min-width: 133px;
+}
+
+.tile-icon-wrapper {
+  width: 40px;
+  height: 40px;
+  margin: 0 auto;
+}
+
+.tile-icon {
+  width: 40px;
+  height: auto;
+  margin: 0 auto;
+}
+
+@media screen and (max-width: 961px) {
+  .tile {
+    width: 15%;
+  }
+}
+
+@media screen and (min-width: 601px) {
+  .tile {
+    width: 22%;
+  }
+}
+
+@media only screen and (min-width: 760px) {
+  h3 {
+    font-size: 16px;
+  }
+}

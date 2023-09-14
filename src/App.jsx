@@ -2,6 +2,7 @@ import { useState } from 'react'
 import reactLogo from './assets/react.svg'
 import viteLogo from '/vite.svg'
 import './App.css'
+import Tile from '../components/Tile/Tile.jsx';
 
 function App() {
 
@@ -12,12 +13,11 @@ function App() {
       <div className='content'>
         <h2 >Join 2 million+ Australians finding better</h2>
         <p>Finder's team of 40+ experts will help you find the right choices in over 100 categories.</p>
-      </div>
       <div className='tiles-container'>
         <div className='tiles'>
-          
-          <div></div>
+          <Tile/>
         </div>
+      </div>
       </div>
     </section>
   )
