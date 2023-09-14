@@ -14,7 +14,7 @@ git clone https://github.com/ddmuzyk/Homepage.git
 Install dependencies and start the server:
 
 ```
-cd homepage
+cd Homepage
 npm install
 npm start
 ```
