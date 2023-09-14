@@ -48,6 +48,7 @@ h2 {
 
 .content {
   box-sizing: border-box;
+  min-width: 280px;
 }
 
 .open {
