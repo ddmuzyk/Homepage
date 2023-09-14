@@ -2,6 +2,7 @@
 
 Part of the homepage which was made as a recruitment task.
 
+Check out the website [here](https://homepage-section.onrender.com/)
 
 ## Installation
 You will need [Node.js](https://nodejs.org/en) installed to run this app locally.
