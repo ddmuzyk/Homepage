@@ -1,13 +1,11 @@
 import React from "react";
 import './Button.css';
 
-const Button = ({isOpen, setIsOpen}) => {
+const Button = ({isOpen, toggleTiles}) => {
   return (
-    <div onClick={() => {
-      setIsOpen(!isOpen);
-    }} className='button-container'>
+    <div onClick={toggleTiles} className='button-container'>
       <button className="expand-button">
-        <span>Show {isOpen ? 'less' : 'more'} categories</span>
+        <span>{`Show ${isOpen ? 'less' : 'more'} categories`}</span>
       </button>
         <div className="arrow-container">
           <img className="arrow" src={`../../public/${isOpen ? 'up' : 'down'}.svg`}></img>
