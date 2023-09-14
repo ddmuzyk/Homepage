@@ -5,7 +5,7 @@ export const data = [
   },
   {
     "title": "Home Loans",
-    "image": "home-loans", //OK
+    "image": "home", //OK
   },
   {
     "title": "Health Insurance",
@@ -17,71 +17,71 @@ export const data = [
   },  
   {
     "title": "High-Interest Savings",
-    "image": "savings",
+    "image": "savings", //OK
   },
   {
     "title": "Electricity & Gas",
-    "image": "electricity",
+    "image": "electricity", //OK
   },
   {
     "title": "Personal Loans",
-    "image": "loans",
+    "image": "banknote", //OK
   },
   {
     "title": "Mobile Plans",
-    "image": "mobile",
+    "image": "mobile", //OK
   },
   {
     "title": "Broadband & NBN",
-    "image": "broadband",
+    "image": "broadband", //OK
   },
   {
     "title": "Super Funds",
-    "image": "super",
+    "image": "super", //OK
   },
   {
     "title": "Share Trading",
-    "image": "share",
+    "image": "share",  //OK
   },
   {
     "title": "Life Insurance",
-    "image": "life",
+    "image": "life", //OK
   },
   {
     "title": "Home Insurance",
-    "image": "home-insurance",
+    "image": "home", //OK
   },
   {
     "title": "Travel Insurance",
-    "image": "travel-insurance",
+    "image": "travel-insurance", //OK
   },
   {
     "title": "Travel Deals",
-    "image": "travel-deals",
+    "image": "travel-deals", //OK
   },
   {
     "title": "Crypto",
-    "image": "crypto",
+    "image": "crypto", //OK
   },
   {
     "title": "Car Loans",
-    "image": "car-loans",
+    "image": "car", //OK
   },
   {
     "title": "Pet Insurance",
-    "image": "pet",
+    "image": "pet",  //OK
   },
   {
     "title": "Transaction Accounts",
-    "image": "transaction",
+    "image": "transaction", //OK
   },
   {
     "title": "Money Transfers",
-    "image": "money-transfers",
+    "image": "earth", //OK 
   },
   {
     "title": "Shopping Deals",
-    "image": "shopping-deals",
+    "image": "shop",
   },
   {
     "title": "Streaming",
@@ -89,10 +89,10 @@ export const data = [
   },
   {
     "title": "Business Insurance",
-    "image": "business-insurance",
+    "image": "banknote",
   },
   {
     "title": "Short Term Loans",
-    "image": "short-term-loans",
+    "image": "hourglass",
   },
 ]
