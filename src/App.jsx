@@ -1,6 +1,6 @@
 import { useState } from 'react'
 import './App.css'
-import Tile from '../components/Tile/Tile.jsx';
+import Tile from '../components/Tile/Tile';
 import { data } from '../data/data';
 import Button from '../components/Button/Button';
 

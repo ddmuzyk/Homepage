@@ -8,7 +8,7 @@ const Button = ({isOpen, toggleTiles}) => {
         <span>{`Show ${isOpen ? 'less' : 'more'} categories`}</span>
       </button>
         <div className="arrow-container">
-          <img className="arrow" src={`../../public/${isOpen ? 'up' : 'down'}.svg`}></img>
+          <img className="arrow" src={`/${isOpen ? 'up' : 'down'}.svg`}></img>
         </div>
     </div>
   )

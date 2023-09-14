@@ -1,8 +1,32 @@
-# React + Vite
+# Homepage
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Part of the homepage which was made as a recruitment task.
 
-Currently, two official plugins are available:
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Installation
+You will need [Node.js](https://nodejs.org/en) installed to run this app locally.
+
+Clone the repository with HTTPS or SSH, for example:
+```
+git clone https://github.com/ddmuzyk/Homepage.git
+```
+
+Install dependencies and start the server:
+
+```
+cd homepage
+npm install
+npm start
+```
+
+## Tech
+* HTML
+* JavaScript
+* React.js
+* CSS3
+
+## About
+
+The project is a recreation of a website's homepage. 
+
+The main section contains an introduction and 24 tiles with different categories (clicking each tile redirects to the main page). At the bottom of the section there is a button, which on click either shows the user more categories, or if they are already shown - hides them.
