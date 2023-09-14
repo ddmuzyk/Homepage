@@ -18,7 +18,7 @@ h3 {
   border: 1px solid;
   border-color: #e3e5e8;
   border-radius: 16px;
-  /* min-width: 133px; */
+  min-width: 100px;
   /* max-width: 170px; */
   margin: 0 0px 24px 0;
 }

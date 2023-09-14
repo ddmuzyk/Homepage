@@ -41,13 +41,19 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: auto;
+  height: 385px;
   /* Later change height to 137px */
   width: 100%;
+  overflow: hidden;
+  transition: height 0.3s;
 }
 
 .content {
   box-sizing: border-box;
+}
+
+.open {
+  height: auto;
 }
 
 
@@ -65,13 +71,17 @@ h2 {
   }
 
   .tiles {
-    height: auto; 
+    height: 120px; 
     /* Later add 130px height */
   }
 
   .content {
     margin: 0 auto;
     width: 972px;
+  }
+
+  .open {
+    height: auto;
   }
 }
 
@@ -89,10 +99,18 @@ h2 {
     width: 1120px;
     padding: 0;
   }
+
+  .open {
+    height: auto;
+  }
 }
 
-/* @media screen and (max-width: 959px) {
-  .home-section {
-    margin: 0 20px;
+@media screen and (min-width: 601px) {
+  .tiles {
+    height: 125px;
   }
-} */
+
+  .open {
+    height: auto;
+  }
+}
