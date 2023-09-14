@@ -14,6 +14,7 @@ h2 {
   width: 100%;
   margin-top: 130px;
   box-sizing: border-box;
+  height: auto;
 }
 
 .home-section h2 {
@@ -40,7 +41,8 @@ h2 {
   flex-direction: row;
   justify-content: space-between;
   flex-wrap: wrap;
-  height: 137px;
+  height: auto;
+  /* Later change height to 137px */
   width: 100%;
 }
 
@@ -63,7 +65,8 @@ h2 {
   }
 
   .tiles {
-    height: 130px;
+    height: auto; 
+    /* Later add 130px height */
   }
 
   .content {

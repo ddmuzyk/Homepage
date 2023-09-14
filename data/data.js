@@ -1,83 +1,83 @@
 export const data = [
   {
     "title": "Credit Cards",
-    "image": "credit", //OK
+    "image": "credit",
   },
   {
     "title": "Home Loans",
-    "image": "home", //OK
+    "image": "home", 
   },
   {
     "title": "Health Insurance",
-    "image": "health", //OK
+    "image": "health", 
   },
   {
     "title": "Car Insurance",
-    "image": "car", //OK
+    "image": "car", 
   },  
   {
     "title": "High-Interest Savings",
-    "image": "savings", //OK
+    "image": "savings", 
   },
   {
     "title": "Electricity & Gas",
-    "image": "electricity", //OK
+    "image": "electricity", 
   },
   {
     "title": "Personal Loans",
-    "image": "banknote", //OK
+    "image": "banknote", 
   },
   {
     "title": "Mobile Plans",
-    "image": "mobile", //OK
+    "image": "mobile", 
   },
   {
     "title": "Broadband & NBN",
-    "image": "broadband", //OK
+    "image": "broadband", 
   },
   {
     "title": "Super Funds",
-    "image": "super", //OK
+    "image": "super", 
   },
   {
     "title": "Share Trading",
-    "image": "share",  //OK
+    "image": "share",  
   },
   {
     "title": "Life Insurance",
-    "image": "life", //OK
+    "image": "life", 
   },
   {
     "title": "Home Insurance",
-    "image": "home", //OK
+    "image": "home", 
   },
   {
     "title": "Travel Insurance",
-    "image": "travel-insurance", //OK
+    "image": "travel-insurance", 
   },
   {
     "title": "Travel Deals",
-    "image": "travel-deals", //OK
+    "image": "travel-deals", 
   },
   {
     "title": "Crypto",
-    "image": "crypto", //OK
+    "image": "crypto", 
   },
   {
     "title": "Car Loans",
-    "image": "car", //OK
+    "image": "car", 
   },
   {
     "title": "Pet Insurance",
-    "image": "pet",  //OK
+    "image": "pet", 
   },
   {
     "title": "Transaction Accounts",
-    "image": "transaction", //OK
+    "image": "transaction", 
   },
   {
     "title": "Money Transfers",
-    "image": "earth", //OK 
+    "image": "earth", 
   },
   {
     "title": "Shopping Deals",

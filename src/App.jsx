@@ -4,6 +4,7 @@ import viteLogo from '/vite.svg'
 import './App.css'
 import Tile from '../components/Tile/Tile.jsx';
 import { data } from '../data/data';
+import Button from '../components/Button/Button';
 
 function App() {
 
@@ -22,6 +23,7 @@ function App() {
             )
           })}
         </div>
+        <Button isOpen={isOpen}/>
       </div>
       </div>
     </section>
