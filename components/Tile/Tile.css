@@ -1,6 +1,8 @@
 h3 {
-  margin: 0;
+  margin: 0 auto;
+  width: fit-content;
   text-align: center;
+  padding: 0 10px;
   font-weight: 1000;
   font-size: 14px;
 }
@@ -11,13 +13,18 @@ h3 {
   justify-content: center;
   text-decoration: none;
   height: 105px;
-  color: var(--blue);
   width: 48%;
+  color: var(--blue);
   border: 1px solid;
   border-color: #e3e5e8;
   border-radius: 16px;
-  min-width: 133px;
-  max-width: 170px;
+  /* min-width: 133px; */
+  /* max-width: 170px; */
+  margin: 0 0px 24px 0;
+}
+
+.tile:hover {
+  border-color: var(--blue);
 }
 
 .tile-icon-wrapper {
@@ -32,20 +39,27 @@ h3 {
   margin: 0 auto;
 }
 
-@media screen and (max-width: 961px) {
-  .tile {
-    width: 15%;
-  }
-}
-
 @media screen and (min-width: 601px) {
   .tile {
     width: 22%;
   }
 }
 
+@media screen and (min-width: 961px) {
+  .tile {
+    width: 15%;
+  }
+}
+
+
 @media only screen and (min-width: 760px) {
   h3 {
     font-size: 16px;
+  }
+}
+
+@media screen and (max-width: 430px) {
+  .tile {
+    margin: 0 0 24px 0;
   }
 }
