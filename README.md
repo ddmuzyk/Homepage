@@ -17,7 +17,7 @@ Install dependencies and start the server:
 ```
 cd Homepage
 npm install
-npm start
+npm run dev
 ```
 
 ## Tech
